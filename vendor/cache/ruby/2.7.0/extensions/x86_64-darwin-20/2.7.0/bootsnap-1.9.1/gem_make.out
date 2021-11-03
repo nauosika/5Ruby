@@ -1,0 +1,15 @@
+current directory: /Users/zhongmuyong/mylearning/five_ruby_project/vendor/cache/ruby/2.7.0/gems/bootsnap-1.9.1/ext/bootsnap
+/Users/zhongmuyong/.rvm/rubies/ruby-2.7.3/bin/ruby -I /Users/zhongmuyong/.rvm/rubies/ruby-2.7.3/lib/ruby/2.7.0 -r ./siteconf20211103-43731-1gxb7e9.rb extconf.rb
+creating Makefile
+
+current directory: /Users/zhongmuyong/mylearning/five_ruby_project/vendor/cache/ruby/2.7.0/gems/bootsnap-1.9.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/zhongmuyong/mylearning/five_ruby_project/vendor/cache/ruby/2.7.0/gems/bootsnap-1.9.1/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/zhongmuyong/mylearning/five_ruby_project/vendor/cache/ruby/2.7.0/gems/bootsnap-1.9.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20211103-43731-24lncu/bootsnap
