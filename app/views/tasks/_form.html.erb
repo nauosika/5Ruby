@@ -1,0 +1,17 @@
+<div class="form-row">
+  <%= form_for(task) do |f| %>
+
+    <%= f.label :description, "內容"%>
+    <div class="col">
+      <%= f.text_area :description %>
+    </div>
+
+    <%= f.label :end_at, "任務結束時間"%>
+    <div class="col">
+      <%= f.datetime_select :end_at %>
+    </div>
+
+    <br>
+    <%= f.submit "送出" %>
+  <% end %>
+</div>
