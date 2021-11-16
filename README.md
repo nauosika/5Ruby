@@ -34,3 +34,5 @@ setup travis IC
 步驟10: 設定 Rails 的時區(done)
 
 步驟11: 任務列表以建立時間排序(done)
+
+步驟12: 資料驗證
