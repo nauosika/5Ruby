@@ -10,7 +10,7 @@
   <tbody>
     <tr>
       <td><%= @task.description %></td>
-      <td><%= @task.end_at %></td>
+      <td><%= @task.end_at&.strftime('%Y-%m-%d %H:%M') %></td>
       <td><%= link_to "修改", edit_task_path(@task) %></td>
       <td><%= link_to "刪除", task_path(@task), method: :delete, data: {confirm: "確認刪除?", "bootstrap-confirm": 'delete' }, class:"btn btn-danger btn-xs" %></td>
     </tr>
