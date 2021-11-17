@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.feature "Tasks", type: :feature do
   context 'task index init load' do
     scenario 'order by created_at' do
-      task1 = Task.create!(:description => "測試內容一")
-      task2 = Task.create!(:description => "測試內容二")
+      task1 = Task.create!(description: "測試內容一", end_at: 5.hours.from_now )
+      task2 = Task.create!(description: "測試內容二", end_at: 5.hours.from_now )
       visit tasks_path
 
       first_task = all('table>tbody>tr>td').first
