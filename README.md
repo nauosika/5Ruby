@@ -36,3 +36,19 @@ setup travis IC
 步驟11: 任務列表以建立時間排序(done)
 
 步驟12: 資料驗證
+
+步驟13: 網站佈署
+https://fiveruby.herokuapp.com/
+條件:已有Heroku帳密，已安裝Heroku Cli，已Git版控，初期已選定pgSQL。
+部署分支:main
+```ruby
+$ heroku login
+# $ heroku create project_name 或 Heroku 上 Create new app
+$ heroku git:remote -a fiveruby
+$ git push heroku main
+$ heroku run rails db:migrate
+```
+如果有錯誤
+```ruby
+$ heroku run rails console
+```
