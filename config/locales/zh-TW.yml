@@ -1,0 +1,26 @@
+zh-TW:
+  errors:
+    messages:
+      record_invalid: "校驗失敗: %{errors}"
+  attributes:
+    description: "內容"
+    end_at: "任務結束時間"
+  date:
+    order:
+    - :year
+    - :month
+    - :day
+    month_names:
+    -
+    - 1月
+    - 2月
+    - 3月
+    - 4月
+    - 5月
+    - 6月
+    - 7月
+    - 8月
+    - 9月
+    - 10月
+    - 11月
+    - 12月
