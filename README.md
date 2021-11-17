@@ -52,3 +52,4 @@ $ heroku run rails db:migrate
 ```ruby
 $ heroku run rails console
 ```
+步驟14: 加入結束時間

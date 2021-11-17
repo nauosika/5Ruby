@@ -5,6 +5,10 @@ class TasksController < ApplicationController
     @tasks = Task.all.created_desc
   end
 
+  def order_by_end_at
+    @tasks = Task.all.end_at_desc
+  end
+
   def show
   end
 
